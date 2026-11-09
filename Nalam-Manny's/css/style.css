@@ -1,0 +1,30 @@
+
+
+@import url('https://googleapis.com');
+
+body {
+  font-family: "Fraunces", serif;
+  margin: 40px;
+  background-color: #9eb9b7;
+}
+
+h1, h2, h3 {
+    font-family: "Fraunces", serif;
+}
+
+h1, h2 {
+    color: #95461a;
+    
+}
+
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(css/images/bg.jpg);
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+

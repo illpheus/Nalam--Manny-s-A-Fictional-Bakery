@@ -1,0 +1,142 @@
+/* ---------- Part 3 & 4: base styles (external) ---------- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+/* ---------- Part 4: selectors ---------- */
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: darkblue;
+    border-bottom: 2px solid teal;
+    padding-bottom: 4px;
+}
+
+h3 {
+    color: teal;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+}
+
+.card {
+    background-color: #f4f6f8;
+    border: 1px solid #cccccc;
+    padding: 16px;
+    margin-bottom: 12px;
+}
+
+.featured {
+    border: 3px solid darkorange;
+}
+
+.note {
+    color: gray;
+    font-size: 14px;
+}
+
+#top {
+    background-color: darkblue;
+    color: white;
+    padding: 24px;
+    text-align: center;
+}
+
+/* ---------- Part 6: combinators ---------- */
+header p {
+    font-style: italic;
+}
+
+section > p {
+    border-left: 4px solid teal;
+    padding-left: 10px;
+}
+
+h3 + p {
+    font-weight: bold;
+}
+
+h3 ~ p {
+    margin-left: 20px;
+}
+
+/* ---------- Part 7: pseudo-classes ---------- */
+nav {
+    margin: 16px 0;
+}
+
+nav a {
+    color: darkblue;
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+nav a:hover {
+    color: darkorange;
+    text-decoration: underline;
+}
+
+li {
+    padding: 6px;
+}
+
+li:first-child {
+    font-weight: bold;
+}
+
+li:last-child {
+    color: crimson;
+}
+
+li:nth-child(even) {
+    background-color: #e3ecf5;
+}
+
+input:focus {
+    outline: 3px solid darkorange;
+}
+
+/* ---------- Part 7: attribute selectors ---------- */
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    display: block;
+    padding: 8px;
+    margin-top: 4px;
+}
+
+input[type="text"] {
+    border: 2px solid teal;
+}
+
+input[type="email"] {
+    border: 2px solid darkorange;
+}
+
+input[type="submit"] {
+    margin-top: 14px;
+    padding: 8px 24px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+}
+
+a[href^="https"] {
+    font-style: italic;
+}
+
+a[target="_blank"] {
+    border-bottom: 1px dashed darkblue;
+}
