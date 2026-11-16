@@ -19,8 +19,14 @@ h1, h2 {
 
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(css/images/bg.jpg);
+    background-image: linear-gradient(rgba(71, 71, 71, 0.5), rgba(185, 185, 185, 0.5)), url(../images/bg.jpg);
     height: 100%;
+
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 
     background-position: center;
     background-repeat: no-repeat;
@@ -28,3 +34,16 @@ h1, h2 {
     position: relative;
 }
 
+.hero-text {
+    color: white;
+    padding: 30px;
+}
+
+.hero-button{
+    display: inline-block;
+    background-color: #95461a;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
