@@ -48,9 +48,65 @@ h1, h2 {
     border-radius: 5px;
 }
 
+
+
+#about {
+    padding: 50px 8%;
+    background-color: #fff8ef;
+    text-align: center;
+}
+
+#about h2 {
+    color: #95461a;
+    margin-bottom: 30px;
+}
+
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: fit-content;
+    margin: auto;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.about-text {
+    flex: 1;
+    text-align: left;
+    color: #4a3023;
+    line-height: 1.7;
+}
+
+
 .feature-card {
     background-color: #f5e6d3;
     padding: 20px;
     margin: 15px;
     border-radius: 10px;
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
 }
+
+
+
+.feature-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
